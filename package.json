@@ -1,6 +1,6 @@
 {
   "name": "git-shrekt",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "git shrekt",
   "main": "index.js",
   "scripts": {
