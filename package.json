@@ -1,0 +1,15 @@
+{
+  "name": "git-shrekt",
+  "version": "1.0.2",
+  "description": "git shrekt",
+  "main": "index.js",
+  "scripts": {
+		"prepublish": "npm run build",
+    "build": "node build.js"
+  },
+  "author": "Noah Muth <noah@fulgid.io>",
+  "license": "MIT",
+  "bin": {
+    "git-shrekt": "bin/git-shrekt.js"
+  }
+}
