@@ -5,8 +5,7 @@ const shrek = fs.readFileSync(shrekFile, 'utf8')
 const safeShrek = shrek.replace(/(`|\\)/g, '\\$1')
 
 const binFile = path.resolve(__dirname, './bin/git-shrekt.js')
-fs.writeFileSync(binFile, `
-#!/usr/bin/env node
+fs.writeFileSync(binFile, `#!/usr/bin/env node
 
 console.info(\`
 ${safeShrek}
